@@ -3423,13 +3423,13 @@
 
 .active .ly-txtlast {
 	opacity: 1;
-	transition-delay: 3s;
+	transition-delay: 1s;
 }
 
 .active .ly-txtlast {
 	font-color: #fff;
 	color: #ffffff;
-	transition-delay: 6s;
+	transition-delay: 3s;
 }
 
 .lastbutton {
@@ -3445,7 +3445,7 @@
 
 .active .lastbutton {
 	opacity: 1;
-	transition-delay: 6s;
+	transition-delay: 4s;
 }
 
 .ly-txt90 {
